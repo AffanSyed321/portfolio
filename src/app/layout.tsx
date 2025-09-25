@@ -11,8 +11,49 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Affan's portfolio",
-  description: 'Affan is a software engineer and marketer.',
+  title: "Affan Syed | Growth Marketing Analyst & AI Builder",
+  description: 'Award-winning Growth Marketing Analyst specializing in AI-driven marketing systems. Founder of FewCuts Inc. 7× American Advertising Award Winner. Expert in marketing automation, AI tools, and creator economy.',
+  keywords: [
+    'Growth Marketing Analyst',
+    'AI Marketing',
+    'Marketing Automation',
+    'FewCuts',
+    'AI Video Editor',
+    'American Advertising Awards',
+    'Marketing Strategy',
+    'Creator Economy',
+    'YouTube Creator',
+    'Podcast Host',
+    'MBA Business Analytics',
+    'Affan Syed'
+  ],
+  authors: [{ name: 'Affan Syed' }],
+  creator: 'Affan Syed',
+  publisher: 'Affan Syed',
+  openGraph: {
+    title: "Affan Syed | Growth Marketing Analyst & AI Builder",
+    description: 'Award-winning Growth Marketing Analyst specializing in AI-driven marketing systems. Founder of FewCuts Inc. 7× American Advertising Award Winner.',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Affan Syed Portfolio'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Affan Syed | Growth Marketing Analyst & AI Builder",
+    description: 'Award-winning Growth Marketing Analyst specializing in AI-driven marketing systems. Founder of FewCuts Inc. 7× American Advertising Award Winner.',
+    creator: '@affansyed'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
