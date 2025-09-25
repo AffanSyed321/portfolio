@@ -49,7 +49,7 @@ function LetterDisplay({ word, isKnows = false }: { word: string, isKnows?: bool
   return word.split('').map((letter, index) => (
     <div
       key={index}
-      className={`letter text-2xl font-semibold leading-tight xs:text-4xl sm:text-[70px] sm:leading-[0.85] md:text-[90px] md:leading-[0.8] lg:text-[120px] lg:leading-[0.75] xl:text-[150px] xl:leading-[0.7] 2xl:text-[180px] 2xl:leading-[0.65] ${isKnows ? 'italic underline' : ''}`}
+      className={`letter text-3xl font-semibold leading-tight xs:text-5xl sm:text-[85px] sm:leading-[0.8] md:text-[120px] md:leading-[0.75] lg:text-[160px] lg:leading-[0.7] xl:text-[200px] xl:leading-[0.65] 2xl:text-[240px] 2xl:leading-[0.6] ${isKnows ? 'italic underline' : ''}`}
       data-speed={getRandomSpeed()}
     >
       {letter}
@@ -94,24 +94,24 @@ export function LetterCollision() {
         </div>
 
         {/* Desktop: Original layout */}
-        <div className="hidden sm:flex flex-wrap p-0 mb-2 lg:mb-4">
+        <div className="hidden sm:flex flex-wrap p-0 mb-1 lg:mb-2">
           <LetterDisplay word={word1} />
-          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
+          <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word2} />
         </div>
-        <div className="hidden sm:flex flex-wrap mb-2 lg:mb-4">
+        <div className="hidden sm:flex flex-wrap mb-1 lg:mb-2">
           <LetterDisplay word={word3} isKnows={true} />
         </div>
-        <div className="hidden sm:flex flex-wrap mb-2 lg:mb-4">
+        <div className="hidden sm:flex flex-wrap mb-1 lg:mb-2">
           <LetterDisplay word={word4} />
-          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
+          <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word5} />
-          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
+          <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word6} />
         </div>
-        <div className="hidden sm:flex flex-wrap mb-4 lg:mb-8">
+        <div className="hidden sm:flex flex-wrap mb-2 lg:mb-4">
           <LetterDisplay word={word7} />
-          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
+          <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word8} />
         </div>
       </div>
