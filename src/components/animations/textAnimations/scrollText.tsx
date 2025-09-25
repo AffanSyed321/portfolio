@@ -49,7 +49,7 @@ function LetterDisplay({ word, isKnows = false }: { word: string, isKnows?: bool
   return word.split('').map((letter, index) => (
     <div
       key={index}
-      className={`letter text-2xl font-semibold leading-none xs:text-4xl sm:text-[90px] md:text-[120px] lg:text-[160px] xl:text-[210px] 2xl:text-[250px] ${isKnows ? 'italic underline' : ''}`}
+      className={`letter text-2xl font-semibold leading-tight xs:text-4xl sm:text-[70px] sm:leading-[0.85] md:text-[90px] md:leading-[0.8] lg:text-[120px] lg:leading-[0.75] xl:text-[150px] xl:leading-[0.7] 2xl:text-[180px] 2xl:leading-[0.65] ${isKnows ? 'italic underline' : ''}`}
       data-speed={getRandomSpeed()}
     >
       {letter}
@@ -94,24 +94,24 @@ export function LetterCollision() {
         </div>
 
         {/* Desktop: Original layout */}
-        <div className="hidden sm:flex flex-wrap p-0">
+        <div className="hidden sm:flex flex-wrap p-0 mb-2 lg:mb-4">
           <LetterDisplay word={word1} />
-          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
           <LetterDisplay word={word2} />
         </div>
-        <div className="hidden sm:flex flex-wrap">
+        <div className="hidden sm:flex flex-wrap mb-2 lg:mb-4">
           <LetterDisplay word={word3} isKnows={true} />
         </div>
-        <div className="hidden sm:flex flex-wrap">
+        <div className="hidden sm:flex flex-wrap mb-2 lg:mb-4">
           <LetterDisplay word={word4} />
-          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
           <LetterDisplay word={word5} />
-          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
           <LetterDisplay word={word6} />
         </div>
-        <div className="hidden sm:flex flex-wrap">
+        <div className="hidden sm:flex flex-wrap mb-4 lg:mb-8">
           <LetterDisplay word={word7} />
-          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <div className="w-3 sm:w-4 md:w-6 lg:w-8"></div>
           <LetterDisplay word={word8} />
         </div>
       </div>
