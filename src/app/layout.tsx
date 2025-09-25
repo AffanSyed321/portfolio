@@ -12,7 +12,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Affan's portfolio",
-  description: 'Affan is a software engineer and marketer.'
+  description: 'Affan is a software engineer and marketer.',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  }
 };
 
 export default function RootLayout({
