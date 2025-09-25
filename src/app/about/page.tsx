@@ -41,7 +41,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden bg-gradient-to-b from-purple-200 via-purple-300 to-yellow-200">
+    <div className="relative overflow-hidden bg-gradient-to-b from-[#A2CFFE] to-yellow-200">
       <Layout title="I'm Affan" center>
         <div className="relative min-h-screen">
           <div ref={starsRef}>
