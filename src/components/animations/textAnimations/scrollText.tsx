@@ -71,6 +71,7 @@ export function LetterCollision() {
         {/* Mobile: Engineer who */}
         <div className="flex flex-nowrap p-0 sm:hidden">
           <LetterDisplay word={word1} />
+          <div className="w-2"></div>
           <LetterDisplay word={word2} />
         </div>
         {/* Mobile: knows */}
@@ -80,12 +81,15 @@ export function LetterCollision() {
         {/* Mobile: how to market */}
         <div className="flex flex-nowrap sm:hidden">
           <LetterDisplay word={word4} />
+          <div className="w-2"></div>
           <LetterDisplay word={word5} />
+          <div className="w-2"></div>
           <LetterDisplay word={word6} />
         </div>
         {/* Mobile: stuff well */}
         <div className="flex flex-nowrap sm:hidden">
           <LetterDisplay word={word7} />
+          <div className="w-2"></div>
           <LetterDisplay word={word8} />
         </div>
 
