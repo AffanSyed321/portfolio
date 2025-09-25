@@ -67,7 +67,7 @@ export function LetterCollision() {
 
   return (
     <div ref={containerRef} className="ml-4 sm:ml-8 scroll-smooth">
-      <div className="mt-8 mb-16 flex h-screen flex-col justify-center sm:justify-end sm:mt-16 sm:mb-36 lg:mb-24">
+      <div className="mt-8 mb-16 flex h-screen flex-col justify-center sm:justify-center sm:mt-16 sm:mb-36 lg:mb-24">
         {/* Mobile: Engineer who */}
         <div className="flex flex-nowrap p-0 sm:hidden">
           <LetterDisplay word={word1} />
@@ -94,22 +94,22 @@ export function LetterCollision() {
         </div>
 
         {/* Desktop: Original layout */}
-        <div className="hidden sm:flex flex-wrap p-0 mb-1 lg:mb-2">
+        <div className="hidden sm:flex flex-wrap p-0 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
           <LetterDisplay word={word1} />
           <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word2} />
         </div>
-        <div className="hidden sm:flex flex-wrap mb-1 lg:mb-2">
+        <div className="hidden sm:flex flex-wrap mb-4 md:mb-6 lg:mb-8 xl:mb-10">
           <LetterDisplay word={word3} isKnows={true} />
         </div>
-        <div className="hidden sm:flex flex-wrap mb-1 lg:mb-2">
+        <div className="hidden sm:flex flex-wrap mb-4 md:mb-6 lg:mb-8 xl:mb-10">
           <LetterDisplay word={word4} />
           <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word5} />
           <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word6} />
         </div>
-        <div className="hidden sm:flex flex-wrap mb-2 lg:mb-4">
+        <div className="hidden sm:flex flex-wrap mb-6 md:mb-8 lg:mb-10 xl:mb-12">
           <LetterDisplay word={word7} />
           <div className="w-4 sm:w-5 md:w-7 lg:w-9 xl:w-12"></div>
           <LetterDisplay word={word8} />
