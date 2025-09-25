@@ -6,6 +6,10 @@ import NavLinks from '@/components/nav/NavLinks';
 
 const links = [
   {
+    title: 'home',
+    href: '/'
+  },
+  {
     title: 'about',
     href: '/about'
   },

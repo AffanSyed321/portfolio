@@ -26,7 +26,7 @@ export default function NavLinks({ links, setIsActive }: NavLinksProps) {
                 <Link
                   href={href!}
                   onClick={() => setIsActive(false)}
-                  className="text-[46px] italic text-background no-underline"
+                  className="text-[46px] italic text-black no-underline"
                 >
                   {title}
                 </Link>

@@ -49,7 +49,7 @@ function LetterDisplay({ word, isKnows = false }: { word: string, isKnows?: bool
   return word.split('').map((letter, index) => (
     <div
       key={index}
-      className={`letter text-6xl font-semibold xs:text-[90px] xs:leading-none md:text-[120px] lg:text-[160px] xl:text-[210px] 2xl:text-[250px] ${isKnows ? 'italic underline' : ''}`}
+      className={`letter text-2xl font-semibold leading-none xs:text-4xl sm:text-[90px] md:text-[120px] lg:text-[160px] xl:text-[210px] 2xl:text-[250px] ${isKnows ? 'italic underline' : ''}`}
       data-speed={getRandomSpeed()}
     >
       {letter}
@@ -66,30 +66,52 @@ export function LetterCollision() {
   }, []);
 
   return (
-    <div ref={containerRef} className="ml-8 scroll-smooth">
-      <div className="mt-16 mb-36 flex h-screen flex-col justify-end lg:mb-24">
-        <div className="flex flex-wrap p-0">
+    <div ref={containerRef} className="ml-4 sm:ml-8 scroll-smooth">
+      <div className="mt-8 mb-16 flex h-screen flex-col justify-center sm:justify-end sm:mt-16 sm:mb-36 lg:mb-24">
+        {/* Mobile: Engineer who */}
+        <div className="flex flex-nowrap p-0 sm:hidden">
+          <LetterDisplay word={word1} />
+          <LetterDisplay word={word2} />
+        </div>
+        {/* Mobile: knows */}
+        <div className="flex flex-nowrap sm:hidden">
+          <LetterDisplay word={word3} isKnows={true} />
+        </div>
+        {/* Mobile: how to market */}
+        <div className="flex flex-nowrap sm:hidden">
+          <LetterDisplay word={word4} />
+          <LetterDisplay word={word5} />
+          <LetterDisplay word={word6} />
+        </div>
+        {/* Mobile: stuff well */}
+        <div className="flex flex-nowrap sm:hidden">
+          <LetterDisplay word={word7} />
+          <LetterDisplay word={word8} />
+        </div>
+
+        {/* Desktop: Original layout */}
+        <div className="hidden sm:flex flex-wrap p-0">
           <LetterDisplay word={word1} />
           <div className="w-2 xs:w-4 sm:w-6"></div>
           <LetterDisplay word={word2} />
         </div>
-        <div className="flex flex-wrap">
+        <div className="hidden sm:flex flex-wrap">
           <LetterDisplay word={word3} isKnows={true} />
         </div>
-        <div className="flex flex-wrap">
+        <div className="hidden sm:flex flex-wrap">
           <LetterDisplay word={word4} />
           <div className="w-2 xs:w-4 sm:w-6"></div>
           <LetterDisplay word={word5} />
           <div className="w-2 xs:w-4 sm:w-6"></div>
           <LetterDisplay word={word6} />
         </div>
-        <div className="flex flex-wrap">
+        <div className="hidden sm:flex flex-wrap">
           <LetterDisplay word={word7} />
           <div className="w-2 xs:w-4 sm:w-6"></div>
           <LetterDisplay word={word8} />
         </div>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap mb-8 sm:mb-0">
         <LetterDisplay word={sentence3} />
       </div>
     </div>
