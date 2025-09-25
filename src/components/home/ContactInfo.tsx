@@ -36,7 +36,7 @@ export default function ContactInfo() {
       ref={container}
       className="relative flex min-h-screen flex-col items-center justify-between bg-foreground p-6 pt-32 text-white sm:justify-center"
     >
-      <div className="w-full bg-foreground pt-[150px] sm:max-w-[1800px]">
+      <div className="w-full bg-foreground pt-[50px] sm:max-w-[1800px]">
         <div className="relative border-b border-gray-600 pb-12 sm:mx-[100px]">
           <span className="flex items-center">
             <div className="relative h-16 w-16 overflow-hidden rounded-full sm:h-[100px] sm:w-[100px]">
@@ -65,27 +65,28 @@ export default function ContactInfo() {
           </motion.div>
         </div>
         <div className="mt-6 flex gap-5 sm:mx-[100px]">
-          <RoundedButton>bettinasosarohl@gmail.com</RoundedButton>
+          <RoundedButton>Affansyed7@gmail.com</RoundedButton>
         </div>
 
-        <div className="mt-20 flex flex-col justify-between p-5 2xs:mt-52 sm:mx-[100px] sm:mt-48 sm:flex-row">
-          <p className="min-w-screen mb-5 text-base sm:max-w-xs">
-            AI/LLM enthusiast | Cutting-edge tech advocate | Web3 builder |
-            Passionate about using technology to make the world a better place.
-          </p>
+        <div className="mt-28 flex flex-col justify-between p-5 2xs:mt-60 sm:mx-[100px] sm:mt-56 sm:flex-row sm:items-end">
+          <div className="mb-5 sm:mb-0">
+            <p className="min-w-screen text-base sm:max-w-xs">
+              Growth Marketing Analyst | AI/LLM Enthusiast | Founder of FewCuts Inc. | 7× American Advertising Award Winner | Creator & Podcast Host
+            </p>
+          </div>
           <div className="flex items-end gap-2">
             <span className="flex flex-col gap-3">
               <h3 className="m-0 cursor-default p-1 text-base font-light text-gray-500">
                 Version
               </h3>
-              <p className="relative m-0 cursor-pointer p-1">2024 © Edition</p>
+              <p className="relative m-0 cursor-pointer p-1">2025 © Edition</p>
             </span>
             <span className="flex flex-col gap-3">
               <h3 className="m-0 cursor-default p-1 text-base font-light text-gray-500">
                 Timezone
               </h3>
               <p className="relative m-0 cursor-pointer p-1">
-                {timeNow} UK (GMT+1)
+                {timeNow} US (GMT-5)
               </p>
             </span>
           </div>
@@ -96,7 +97,7 @@ export default function ContactInfo() {
               </h3>
               <Magnetic>
                 <Link
-                  href="https://twitter.com/bettysrohl"
+                  href="https://x.com/Affansyed321"
                   className={animatedUnderlineStyle}
                 >
                   Twitter
@@ -105,15 +106,15 @@ export default function ContactInfo() {
             </span>
             <Magnetic>
               <Link
-                href="https://github.com/bettinasosa"
+                href="https://www.youtube.com/@AffanSyedx"
                 className={animatedUnderlineStyle}
               >
-                Github
+                Youtube
               </Link>
             </Magnetic>
             <Magnetic>
               <Link
-                href="https://www.linkedin.com/in/bettina-sosa/"
+                href="https://www.linkedin.com/in/affan-syed-mahmood-hussain-0577a6169/"
                 className={animatedUnderlineStyle}
               >
                 Linkedin

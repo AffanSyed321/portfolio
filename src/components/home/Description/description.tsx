@@ -6,13 +6,13 @@ import Link from 'next/link';
 
 export default function Description() {
   const phrase1 =
-    'A software engineer with a passion for innovation and\n' +
-    'cutting-edge technology.\n\n ';
+    'A growth marketing analyst with a passion for AI, data, and\n' +
+    'technology.\n\n ';
 
   const phrase2 =
-    'Particularly interested in the intersection of art, design, and ' +
-    'software. I believe that these disciplines can be combined to ' +
-    'create truly transformative experiences.';
+    'Particularly interested in the intersection of strategy, creativity, and ' +
+    'machine learning. I believe that these disciplines can be combined to ' +
+    'create powerful stories and scalable growth.';
   const description = useRef(null);
   const isInView = useInView(description);
 
@@ -61,21 +61,21 @@ export default function Description() {
           animate={isInView ? 'open' : 'closed'}
           className="m-0 pb-3 font-light sm:text-lg"
         >
-          Currently the founding full stack software engineer @Catapult a DeFi
-          startup.
+          Currently a Growth Marketing Analyst working at the intersection of AI, data,
+          and strategy.
         </motion.p>
         <motion.p
           variants={opacity}
           animate={isInView ? 'open' : 'closed'}
           className="m-0 text-lg font-light"
         >
-          My projects have received multiple awards in the past, and I am always
-          looking for new and innovative ways to use my skills to make a
-          positive impact on the world.
+          My work has been recognized with 7 American Advertising Awards (ADDYs 2024,
+          Fort Worth), and I am always exploring new ways to combine creativity and
+          technology to make a meaningful impact.
         </motion.p>
         <div data-scroll-speed={0.1}>
           <Link href={'/about'}>
-            <RoundedButton className="absolute ml-56 mt-6 flex h-[100px] w-[100px] cursor-pointer items-center justify-center rounded-full bg-destructive text-white sm:ml-16 sm:mt-16 sm:h-[200px] sm:w-[200px]">
+            <RoundedButton className="absolute ml-56 -mt-2 flex h-[100px] w-[100px] cursor-pointer items-center justify-center rounded-full bg-destructive text-white sm:ml-16 sm:mt-2 sm:h-[200px] sm:w-[200px]">
               About me
             </RoundedButton>
           </Link>

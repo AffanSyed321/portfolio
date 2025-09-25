@@ -4,11 +4,15 @@ import { MutableRefObject, useEffect, useRef } from 'react';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const creativity = 'Creativity ';
-const is = 'is ';
-const my = 'my ';
-const craft = 'craft';
-const sentence3 = 'abstract thinking is my passion';
+const word1 = 'Engineer ';
+const word2 = 'who ';
+const word3 = 'knows ';
+const word4 = 'how ';
+const word5 = 'to ';
+const word6 = 'market ';
+const word7 = 'stuff ';
+const word8 = 'well';
+const sentence3 = 'turning ideas into profitable ventures';
 
 function getRandomSpeed() {
   const randomDecimal = Math.random();
@@ -41,11 +45,11 @@ const animateLettersOnScroll = (containerRef: MutableRefObject<any>) => {
   });
 };
 
-function LetterDisplay({ word }: { word: string }) {
+function LetterDisplay({ word, isKnows = false }: { word: string, isKnows?: boolean }) {
   return word.split('').map((letter, index) => (
     <div
       key={index}
-      className="letter text-6xl font-semibold xs:text-[90px] xs:leading-none md:text-[120px] lg:text-[150px] xl:text-[210px] "
+      className={`letter text-6xl font-semibold xs:text-[90px] xs:leading-none md:text-[120px] lg:text-[160px] xl:text-[210px] 2xl:text-[250px] ${isKnows ? 'italic underline' : ''}`}
       data-speed={getRandomSpeed()}
     >
       {letter}
@@ -63,16 +67,26 @@ export function LetterCollision() {
 
   return (
     <div ref={containerRef} className="ml-8 scroll-smooth">
-      <div className="-mt-28 mb-36 flex h-screen flex-col justify-end lg:mb-24">
+      <div className="mt-16 mb-36 flex h-screen flex-col justify-end lg:mb-24">
         <div className="flex flex-wrap p-0">
-          <LetterDisplay word={creativity} />
-          <div className="w-2 xs:w-4 sm:w-10"></div>
-          <LetterDisplay word={is} />
+          <LetterDisplay word={word1} />
+          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <LetterDisplay word={word2} />
         </div>
         <div className="flex flex-wrap">
-          <LetterDisplay word={my} />
-          <div className="w-2 xs:w-4 sm:w-10"></div>
-          <LetterDisplay word={craft} />
+          <LetterDisplay word={word3} isKnows={true} />
+        </div>
+        <div className="flex flex-wrap">
+          <LetterDisplay word={word4} />
+          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <LetterDisplay word={word5} />
+          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <LetterDisplay word={word6} />
+        </div>
+        <div className="flex flex-wrap">
+          <LetterDisplay word={word7} />
+          <div className="w-2 xs:w-4 sm:w-6"></div>
+          <LetterDisplay word={word8} />
         </div>
       </div>
       <div className="flex flex-wrap">

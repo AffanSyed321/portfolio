@@ -42,7 +42,7 @@ export default function About() {
 
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-purple-200 via-purple-300 to-yellow-200">
-      <Layout title="I'm Bettina" center>
+      <Layout title="I'm Affan" center>
         <div className="relative min-h-screen">
           <div ref={starsRef}>
             {[...Array(50)].map((_, i) => (
@@ -66,97 +66,87 @@ export default function About() {
                     className="relative z-10 mx-auto h-auto w-full max-w-sm rounded-t-full shadow-lg"
                     width={1440}
                     height={1800}
-                    src="/images/profile2.jpg"
+                    src="/images/profile-about.jpg"
                     alt="Profile picture"
                   />
                 </div>
-                {spotifyLoading ? (
-                  <p>Loading Spotify playlists...</p>
-                ) : spotifyError ? (
-                  <p>Error: {spotifyError}</p>
-                ) : playlists.length > 0 ? (
-                  <SpotifyPlaylists playlists={playlists} />
-                ) : null}
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-lg font-semibold">My Favorite Tracks</h3>
+                  <div className="flex flex-col gap-2">
+                    <Link
+                      href="https://www.youtube.com/watch?v=IlWlQ-NxNK0&pp=ygUaZm9yZCB2cyBmZXJyYXJpIHNvdW5kdHJhY2s%3D"
+                      className="text-blue-500 hover:underline"
+                      target="_blank"
+                    >
+                      🎵 Ford vs Ferrari Soundtrack
+                    </Link>
+                    <Link
+                      href="https://www.youtube.com/watch?v=qDAPUfogVcY"
+                      className="text-blue-500 hover:underline"
+                      target="_blank"
+                    >
+                      🎵 Track 2
+                    </Link>
+                    <Link
+                      href="https://www.youtube.com/watch?v=LlgWqcHXD8w&pp=ygUVc3VjY2Vzc2lvbiB0aGVtZSBzb25n"
+                      className="text-blue-500 hover:underline"
+                      target="_blank"
+                    >
+                      🎵 Succession Theme Song
+                    </Link>
+                  </div>
+                </div>
               </div>
 
               <div className="flex flex-col gap-10">
                 <div className="text-primary-950/70 dark:text-primary-200/70 space-y-8">
                   <p className="text-2xl font-semibold">
-                    A software engineer and designer with a passion for
-                    innovation and cutting-edge technology.
+                    A marketing strategist, growth marketing analyst, and AI builder with a background in Computer Science Engineering (Osmania University) and an MBA in Business Analytics (Midwestern State University).
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I have a strong track record of building and deploying
-                    successful products.
+                    I specialize in designing AI-driven marketing systems that merge creativity, analytics, and technology to drive measurable growth.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    At{' '}
+                    At my current company, I serve as a Growth Marketing Analyst, leading AI-powered marketing pipelines across automotive, retail, and entertainment. I've developed in-house systems including a graphic design workflow with Gemini, GPT-5, and o3 thinking, streamlining creative production, and location intelligence frameworks (Placer.ai, Experian Mosaic) that map customer segments and power offensive/defensive ad strategies.
+                  </p>
+                  <p className="text-lg sm:text-xl">
+                    I am also the Founder of{' '}
                     <Link
-                      href="https://www.sojo.uk/"
+                      href="https://Fewcuts.com"
                       className="font-semibold underline"
                     >
-                      Sojo
+                      FewCuts Inc.
                     </Link>
-                    , I was the founding full-stack engineer, responsible for
-                    the design, development, and deployment of the
-                    company&apos;s core platform. I built a scalable and
-                    user-friendly app that allowed users to order repairs and
-                    customisation clothing services online.
+                    , a context-based AI video editor startup built to help creators and brands scale campaigns by transforming long-form podcast content into intelligent short-form storytelling.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    After Sojo, I joined{' '}
+                    My work has been recognized with 7 American Advertising Awards in Fort Worth.
+                  </p>
+                  <p className="text-lg sm:text-xl">
+                    Beyond marketing strategy, I'm deeply obsessed with the creator economy. I built a{' '}
                     <Link
-                      href="https://www.catapultlabs.xyz/"
+                      href="https://www.youtube.com/watch?v=Y8B3hldrjI8&list=PLjK8ekDghYRlMYGTUaokojpClBeu8R7Al&pp=gAQB"
                       className="font-semibold underline"
                     >
-                      Catapult Labs
+                      YouTube channel
                     </Link>
-                    , a startup in the blockchain space, as a founding
-                    full-stack software engineer. I played a key role in the
-                    development of the company&apos;s flagship product, a Web3
-                    profiles platform that enables networking in the
-                    decentralized space.
+                    {' '}focused on creativity and creator economy and I host a podcast for the digital age — featuring global founders, creators, and thinkers like Ali Abdaal, Mehdi from ElectroBOOM, Jonathan Morrison, and more.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I then worked on developing decentralised financial
-                    primitives and protocols to enable OTC (Over-The-Counter)
-                    crypto markets on-chain, including collateral management and
-                    margin trading systems. During this time I also learnt
-                    Solidity, to enable the development of smart contracts to
-                    enable new on-chain financial products.
+                    The podcast's mission has always been to help students and young professionals unlock the "third door" in the digital age by showing how others carved unconventional paths.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    In recent months I have been working on an AI co-pilot for
-                    digital asset trading that unifies client conversations
-                    across chat clients like Telegram using OpenAI&apos;s
-                    models.
+                    I also worked with creators at Kerr Industries, helping scale content strategies for names like Milad Mirg and Koi Academy, refining their audience engagement and growth funnels.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    At Imperial College London, I studied design engineering.
-                    During my time at university, I worked on a number of
-                    projects, including{' '}
-                    <Link
-                      href="/projects/m31"
-                      className="font-semibold underline"
-                    >
-                      Andromeda
-                    </Link>
-                    , which was awarded a gold prize in the Creative Conscience
-                    Awards, and{' '}
-                    <Link
-                      href="/projects/axo"
-                      className="font-semibold underline"
-                    >
-                      AxoWear
-                    </Link>
-                    , which was exhibited at the Design Museum London.
+                    Whether in marketing strategy, AI systems, or digital storytelling, my goal is the same: to combine data, design, and technology into narratives that grow businesses and empower people.
                   </p>
                 </div>
               </div>
             </div>
             <Link
               className="flex flex-col gap-10 pt-10"
-              href="https://github.com/bettinasosa"
+              href="https://github.com/affansyed"
             >
               {githubLoading ? (
                 <div></div>

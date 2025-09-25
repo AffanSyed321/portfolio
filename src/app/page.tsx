@@ -92,8 +92,8 @@ export default function Home() {
         <Hero />
       </div>
       <Description />
-      <SlidingImages slider1={slider1} slider2={slider2} />
-      <ContrastCursor isActive={false} text={'Go to project'} />
+      <div className="h-[100px]"></div>
+      <ContrastCursor isActive={false} text={'View Projects'} />
     </div>
   );
 }

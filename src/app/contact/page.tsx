@@ -19,7 +19,7 @@ export default function Contact() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('bettinasosarohl@gmail.com');
+    navigator.clipboard.writeText('Affansyed7@gmail.com');
     setEmailCopied(true);
     setTimeout(() => setEmailCopied(false), 2000);
   };
@@ -37,20 +37,20 @@ export default function Contact() {
       <div className="flex min-h-screen w-full items-center justify-center pt-44 align-middle text-[8.6vw] xs:text-[5.6vw]">
         <div className="p-12 xs:w-1/2 xs:p-0">
           <div className="flex justify-between uppercase">
-            <p className="m-0">Bettina</p>
-            <p className="m-0">Sosa</p>
+            <p className="m-0">Affan</p>
+            <p className="m-0">Syed</p>
           </div>
           <div className="flex justify-between uppercase">
-            <p className="m-0">software</p>
-            <p className="m-0">&</p>
+            <p className="m-0">Engineer</p>
+            <p className="m-0"></p>
           </div>
           <div className="flex justify-between uppercase">
-            <p className="m-0">design</p>
-            <p className="m-0">engineer</p>
+            <p className="m-0"></p>
+            <p className="m-0">Founder</p>
           </div>
           <div className="flex justify-between uppercase">
-            <p className="m-0">Ldn </p>
-            <Link href={'https://www.linkedin.com/in/bettina-sosa/'}>
+            <p className="m-0"></p>
+            <Link href={'https://www.linkedin.com/in/affan-syed-mahmood-hussain-0577a6169/'}>
               <TextDisperse setBackground={setBackground}>
                 <p>→Linkedin</p>
               </TextDisperse>
@@ -70,9 +70,17 @@ export default function Contact() {
               <p className="m-0">→Email</p>
             </TextDisperse>
 
-            <Link href={'https://github.com/bettinasosa'}>
+            <Link href={'https://x.com/Affansyed321'}>
               <TextDisperse setBackground={setBackground}>
-                <p>→Github</p>
+                <p>→Twitter</p>
+              </TextDisperse>
+            </Link>
+          </div>
+          <div className="flex justify-between uppercase">
+            <p className="m-0"></p>
+            <Link href={'https://www.youtube.com/@AffanSyedx'}>
+              <TextDisperse setBackground={setBackground}>
+                <p>→Youtube</p>
               </TextDisperse>
             </Link>
           </div>

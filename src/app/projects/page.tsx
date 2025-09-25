@@ -7,121 +7,100 @@ import Modal from '@/app/projects/project/modal';
 import Layout from '@/components/layout';
 import { ModalContext } from './modalContext';
 
-const projects = [
+const experiences = [
   {
-    title: 'M31 Controller',
-    src: 'm31/controller.jpg',
-    description:
-      'A video/audio game controller to make digital entertainment more approachable to those with visual impairments.',
-    href: '/projects/m31',
-    tag: 'Prototyping',
-    color: '#000000'
+    title: 'Growth Marketing Analyst',
+    company: 'Current Company',
+    location: 'Wichita Falls, TX',
+    duration: 'May 2024 - Present',
+    tag: 'Marketing & AI',
+    color: '#000000',
+    details: [
+      'Used different types of data to improve park marketing strategies: location intelligence, persona data, brand awareness, and local competitive insights, outperforming parks that didn\'t use these techniques by 93.8%.',
+      'Scaled outbound marketing campaigns across Meta, TikTok, and email for 68+ locations, boosting international customer engagement by 36.2% through strategic experimentation and customer-backwards approach.',
+      'Develop comprehensive pricing models for multi-market strategies using Excel macros and Tableau dashboards, analyzing seasonality and DMA trends with Placer.AI data to optimize customer acquisition and drive conversion across diverse segments.',
+      'Developed AI-powered SEO platform with human-in-the-loop workflows leveraging high-quality open-source articles as context and GPT deep research for topic analysis.',
+      'Applied LoRA to FLUX (image) and Wan 2.2 (video) to improve visual consistency across creative outputs.',
+      'Work cross-functionally with operations, finance, and creative teams to implement scalable programs including email marketing, SMS campaigns, and push notifications across B2B and e-commerce markets.',
+      'Managed internship program from January 2025 - May 2025, recruiting and hiring marketing interns.'
+    ]
   },
   {
-    title: 'AXO',
-    src: 'axo/astronaut-square.png',
-    href: '/projects/axo',
-    tag: 'Bio Materials',
+    title: 'Founder and CMO',
+    company: 'FewCuts Inc.',
+    location: 'Remote',
+    duration: '2021 - Present',
+    tag: 'Startup',
     color: '#ee5622'
   },
   {
-    title: 'StyleSync',
-    src: 'stylesync/stylesync.png',
-    href: '/projects/stylesync',
-    tag: 'ML / AI',
-    color: 'pink'
+    title: 'Data Analyst — Performance Marketing Specialist',
+    company: 'Kerr Industries',
+    location: 'Remote',
+    duration: 'March 2021–December 2023',
+    tag: 'Creator Economy',
+    color: 'pink',
+    details: [
+      'Analyzed international audience targeting using Excel functions and Tableau visualizations to inform global content strategy, improving viewer retention across geographic segments.',
+      'Led cross-functional creative team using customer data analysis and performance metrics to guide scalable content planning and execution.'
+    ]
   },
   {
-    title: 'StackeRs',
-    description:
-      'Reusable packaging made of highly recyclable materials for baby bathing products.',
-    src: 'bottles/block.png',
-    href: '/projects/stackers',
-    tag: 'Packaging',
+    title: 'YouTube Creator & Podcast Host',
+    company: 'Independent',
+    tag: 'Content Creation',
     color: '#EFE8D3'
   },
   {
-    title: 'ASTRA',
-    description: 'An interstellar games arcade with a hologram screen.',
-    src: 'astra/astra.png',
-    href: '/projects/astra',
-    tag: 'GIZMO',
+    title: '7× American Advertising Award Winner',
+    company: 'ADDYs 2024, Fort Worth',
+    tag: 'Awards',
     color: '#303030'
   }
-
-  // {
-  //   title: 'DAO social network',
-  //   src: 'sojo/astra.png',
-  //   href: '/projects/catapult-v1',
-  //   tag: 'Software',
-  //   color: '#303030'
-  // },
-  // {
-  //   title: 'SOJO',
-  //   src: 'sojo/astra.png',
-  //   href: '/projects/sojo',
-  //   tag: 'Software',
-  //   color: '#303030'
-  // },
-  // {
-  //   title: 'JENGA',
-  //   src: 'jenga.jpg',
-  //   href: '/projects/robot-jenga',
-  //   tag: 'Robotics',
-  //   color: '#706D63'
-  // },
-  // {
-  //   title: 'Woody',
-  //   src: 'woody.jpg',
-  //   href: '/projects/woody',
-  //   tag: 'Electronics',
-  //   color: '#706D63'
-  // },
-  // {
-  //   title: 'DAFT(PUNK)BOT',
-  //   src: 'cubo/cubo.jpg',
-  //   href: '/projects/cubo',
-  //   tag: 'Electronics',
-  //   color: '#EFE8D3'
-  // },
-  // {
-  //   title: 'Tandem bike',
-  //   src: 'bike.png',
-  //   href: '/projects/tandem-bike-bike',
-  //   tag: 'CAD & optimisation',
-  //   color: '#EFE8D3'
-  // },
-  // {
-  //   title: 'TETRIS',
-  //   src: 'tetris.png',
-  //   href: '/projects/tetris',
-  //   tag: 'Software',
-  //   color: '#EFE8D3'
-  // }
 ];
 
 export default function ProjectsHome() {
-  const [modal, setModal] = useState({ active: false, index: 0 });
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+  const toggleExpanded = (index: number) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
   return (
-    <ModalContext.Provider value={{ modal, setModal }}>
-      <Layout title={'My Work'}>
-        <div className="m-0">
-          <div className="m-0 overflow-hidden">
-            {projects.map((project, index) => {
-              return (
-                <Link href={project.href} key={index}>
+    <Layout title={"Where I've Worked"}>
+      <div className="m-0">
+        <div className="m-0 overflow-hidden">
+          {experiences.map((experience, index) => {
+            const isExpanded = expandedIndex === index;
+            return (
+              <div key={index}>
+                <div onClick={() => toggleExpanded(index)}>
                   <ProjectLink
                     index={index}
-                    title={project.title}
-                    tag={project.tag}
+                    title={experience.title}
+                    tag={experience.tag}
+                    company={experience.company}
+                    location={experience.location}
+                    duration={experience.duration}
+                    clickable={!!experience.details}
                   />
-                </Link>
-              );
-            })}
-          </div>
-          <Modal projects={projects} />
+                </div>
+                {isExpanded && experience.details && (
+                  <div className="border-b border-b-gray-600 px-5 pb-8 pt-4">
+                    <ul className="ml-4 space-y-3">
+                      {experience.details.map((detail, detailIndex) => (
+                        <li key={detailIndex} className="text-sm text-black lg:text-base">
+                          • {detail}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
-      </Layout>
-    </ModalContext.Provider>
+      </div>
+    </Layout>
   );
 }

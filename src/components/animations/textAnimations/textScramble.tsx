@@ -113,7 +113,7 @@ export function TextScramble() {
   return (
     <div>
       <div ref={textRef} className="text-scramble">
-        Creativity is My craft
+        Engineer who knows how to market stuff well
       </div>
     </div>
   );

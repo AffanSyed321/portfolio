@@ -53,15 +53,6 @@ export default function Header() {
       >
         <div className="flex lg:pr-56">
           <Link href={'/'} className="group z-10 flex items-center space-x-2">
-            <Magnetic>
-              <Image
-                height={32}
-                width={32}
-                src="/images/logo.jpg"
-                alt="Bettinas logo"
-                priority
-              />
-            </Magnetic>
             {!isMobile() && (
               <>
                 <div className="hover:rotate-[360deg]">©</div>
@@ -70,14 +61,14 @@ export default function Header() {
                     coded by
                   </div>
                   <div className="ease-custom-cubic px-1 transition-transform duration-500 group-hover:translate-x-[-65px]">
-                    Bettina
+                    Affan
                   </div>
 
                   <div
                     className="ease-custom-cubic
               translate-x-full transition-transform duration-500 group-hover:translate-x-[-65px]"
                   >
-                    Sosa
+                    Syed
                   </div>
                 </div>
               </>
@@ -92,15 +83,12 @@ export default function Header() {
                   <Link href={'/about'}>About</Link>
                 </Magnetic>
                 <Magnetic>
-                  <Link href={'/projects'}>Projects</Link>
+                  <Link href={'/projects'}>Experiences</Link>
                 </Magnetic>
               </div>
             </div>
             <div className="group relative z-10 flex cursor-pointer flex-col p-3">
               <div className="flex flex-col">
-                <Magnetic>
-                  <Link href={'/gallery'}>Gallery</Link>
-                </Magnetic>
                 <Magnetic>
                   <Link href={'/blog'}>Blog</Link>
                 </Magnetic>
