@@ -107,7 +107,7 @@ export default function About() {
                     I specialize in designing AI-driven marketing systems that merge creativity, analytics, and technology to drive measurable growth.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    At my current company, I serve as a Growth Marketing Analyst, leading AI-powered marketing pipelines across automotive, retail, and entertainment. I've developed in-house systems including a graphic design workflow with Gemini, GPT-5, and o3 thinking, streamlining creative production, and location intelligence frameworks (Placer.ai, Experian Mosaic) that map customer segments and power offensive/defensive ad strategies.
+                    At my current company, I serve as a Growth Marketing Analyst, leading AI-powered marketing pipelines across automotive, retail, and entertainment. I&apos;ve developed in-house systems including a graphic design workflow with Gemini, GPT-5, and o3 thinking, streamlining creative production, and location intelligence frameworks (Placer.ai, Experian Mosaic) that map customer segments and power offensive/defensive ad strategies.
                   </p>
                   <p className="text-lg sm:text-xl">
                     I am also the Founder of{' '}
@@ -123,7 +123,7 @@ export default function About() {
                     My work has been recognized with 7 American Advertising Awards in Fort Worth.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    Beyond marketing strategy, I'm deeply obsessed with the creator economy. I built a{' '}
+                    Beyond marketing strategy, I&apos;m deeply obsessed with the creator economy. I built a{' '}
                     <Link
                       href="https://www.youtube.com/watch?v=Y8B3hldrjI8&list=PLjK8ekDghYRlMYGTUaokojpClBeu8R7Al&pp=gAQB"
                       className="font-semibold underline"
@@ -133,7 +133,7 @@ export default function About() {
                     {' '}focused on creativity and creator economy and I host a podcast for the digital age — featuring global founders, creators, and thinkers like Ali Abdaal, Mehdi from ElectroBOOM, Jonathan Morrison, and more.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    The podcast's mission has always been to help students and young professionals unlock the "third door" in the digital age by showing how others carved unconventional paths.
+                    The podcast&apos;s mission has always been to help students and young professionals unlock the &quot;third door&quot; in the digital age by showing how others carved unconventional paths.
                   </p>
                   <p className="text-lg sm:text-xl">
                     I also worked with creators at Kerr Industries, helping scale content strategies for names like Milad Mirg and Koi Academy, refining their audience engagement and growth funnels.
