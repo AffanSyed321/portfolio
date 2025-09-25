@@ -16,7 +16,7 @@ export default function Layout({
     <div className=" mt-36 px-8 py-16 sm:py-20">
       <h1
         className={clsx(
-          'pb-14 text-3xl font-medium sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-tight',
+          'pb-14 text-4xl font-medium sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[12rem] leading-tight whitespace-nowrap',
           center ? 'items-center text-center' : ''
         )}
       >
