@@ -1,3 +1,5 @@
+'use client';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -48,8 +50,6 @@ export const metadata: Metadata = {
     canonical: 'https://affansyed.com/about',
   },
 };
-
-'use client';
 
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';

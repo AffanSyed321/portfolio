@@ -1,3 +1,5 @@
+'use client';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -14,8 +16,6 @@ export const metadata: Metadata = {
     description: 'Explore Affan Syed\'s professional experience in growth marketing, AI systems, and content creation.',
   },
 };
-
-'use client';
 
 import React, { useState } from 'react';
 import Link from 'next/link';

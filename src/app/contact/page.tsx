@@ -1,3 +1,5 @@
+'use client';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -14,8 +16,6 @@ export const metadata: Metadata = {
     description: 'Contact Affan Syed for growth marketing consulting and AI-driven marketing solutions.',
   },
 };
-
-'use client';
 
 import TextDisperse from '@/app/contact/textDisperse/textDisperse';
 import { clsx } from 'clsx';

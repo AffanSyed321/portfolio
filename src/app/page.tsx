@@ -1,3 +1,5 @@
+'use client';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,8 +13,6 @@ export const metadata: Metadata = {
     type: 'profile',
   },
 };
-
-'use client';
 import React, { useEffect, useRef, useState } from 'react';
 import { ArrowDownRight } from 'lucide-react';
 import SlidingImages from '@/components/home/SlidingImages';
