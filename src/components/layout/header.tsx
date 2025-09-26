@@ -97,7 +97,7 @@ export default function Header() {
             <div className="group relative z-10 flex cursor-pointer flex-col p-3">
               <div className="flex flex-col">
                 <Magnetic>
-                  <Link href={'/podcast-episodes'}>Didn't Really name it</Link>
+                  <Link href={'/podcast-episodes'}>Didn&apos;t Really name it</Link>
                 </Magnetic>
               </div>
             </div>

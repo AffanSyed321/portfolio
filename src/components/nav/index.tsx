@@ -22,7 +22,7 @@ const links = [
     href: '/blog'
   },
   {
-    title: 'didn\'t really name it',
+    title: 'didn&apos;t really name it',
     href: '/podcast-episodes'
   }
 ];
