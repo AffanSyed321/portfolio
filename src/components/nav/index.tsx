@@ -20,6 +20,10 @@ const links = [
   {
     title: 'blog',
     href: '/blog'
+  },
+  {
+    title: 'didn\'t really name it',
+    href: '/podcast-episodes'
   }
 ];
 
