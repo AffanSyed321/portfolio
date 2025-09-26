@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is Affan Syed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affan Syed is a Growth Marketing Analyst specializing in AI-driven marketing systems. He is a 7× American Advertising Award Winner and the Founder of FewCuts Inc., a context-based AI video editor startup. He has expertise in performance marketing, data analytics, and AI marketing automation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Affan Syed do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affan Syed works as a Growth Marketing Analyst, leading AI-powered marketing pipelines across automotive, retail, and entertainment industries. He develops AI-driven marketing systems, creates graphic design workflows with AI tools, and implements location intelligence frameworks for customer segmentation and ad strategies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is FewCuts Inc?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FewCuts Inc. is a context-based AI video editor startup founded by Affan Syed in 2021. The company helps creators and brands scale campaigns by transforming long-form podcast content into intelligent short-form storytelling using AI technology."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What awards has Affan Syed won?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affan Syed has won 7 American Advertising Awards (ADDYs) in 2024 from Fort Worth. These awards recognize excellence in advertising and marketing campaigns, showcasing his expertise in creative marketing strategies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Affan Syed's educational background?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affan Syed has a Computer Science Engineering degree from Osmania University and an MBA in Business Analytics from Midwestern State University. This combination gives him both technical and business expertise in marketing and AI systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Affan Syed located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affan Syed is based in Wichita Falls, Texas, United States. He works remotely on various marketing projects and his startup FewCuts Inc."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Affan Syed's experience in marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affan Syed has extensive experience in growth marketing, working as a Growth Marketing Analyst at his current company and previously as a Data Analyst — Performance Marketing Specialist at Kerr Industries (March 2021–December 2023). He specializes in AI marketing, performance marketing, data analytics, and marketing automation."
+      }
+    }
+  ]
+}

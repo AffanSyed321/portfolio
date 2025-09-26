@@ -1,18 +1,51 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Affan Syed | Marketing Strategist & AI Builder',
-  description: 'Learn about Affan Syed, a Growth Marketing Analyst with expertise in AI-driven marketing systems. Computer Science Engineering graduate, MBA in Business Analytics, 7× American Advertising Award Winner.',
-  keywords: ['About Affan Syed', 'Marketing Strategist', 'AI Builder', 'Growth Marketing Analyst', 'Computer Science Engineering', 'Business Analytics MBA', 'American Advertising Awards'],
+  title: 'About Affan Syed | Growth Marketing Analyst, AI Engineer & FewCuts Founder',
+  description: 'Affan Syed is a Growth Marketing Analyst from Wichita Falls, Texas, specializing in AI-driven marketing systems. 7× American Advertising Award Winner (ADDYs 2024), Founder of FewCuts Inc., Computer Science Engineering graduate from Osmania University, MBA Business Analytics from Midwestern State University. Expert in performance marketing, data analytics, marketing automation, AI/LLM, creator economy strategies.',
+  keywords: [
+    'Affan Syed',
+    'Affan Syed Mahmood Hussain',
+    'Growth Marketing Analyst Affan Syed',
+    'FewCuts Founder Affan Syed',
+    'American Advertising Award Winner Affan Syed',
+    'AI Marketing Expert Affan Syed',
+    'Wichita Falls Marketing Analyst',
+    'Texas Marketing Professional',
+    'Osmania University Alumni Marketing',
+    'Midwestern State University MBA Marketing',
+    'AI Video Editor Startup Founder',
+    'Marketing Strategy Consultant',
+    'Performance Marketing Specialist',
+    'Creator Economy Expert',
+    'YouTube Creator Marketing',
+    'Podcast Host Marketing',
+    'AI LLM Marketing Applications',
+    'Marketing Automation Expert',
+    'Data Analytics Marketing Professional',
+    'Digital Marketing Strategist Affan Syed'
+  ],
   openGraph: {
-    title: 'About Affan Syed | Marketing Strategist & AI Builder',
-    description: 'Learn about Affan Syed, a Growth Marketing Analyst specializing in AI-driven marketing systems. Award-winning strategist and founder.',
+    title: 'About Affan Syed | Growth Marketing Analyst & AI Engineer',
+    description: 'Affan Syed: Growth Marketing Analyst from Texas, 7× American Advertising Award Winner, Founder of FewCuts Inc. AI marketing expert with Computer Science & MBA background.',
     url: 'https://affansyed.com/about',
-    images: ['/images/profile-about.jpg'],
+    images: [
+      {
+        url: '/images/profile-about.jpg',
+        width: 800,
+        height: 600,
+        alt: 'Affan Syed - Growth Marketing Analyst and AI Engineer from Texas',
+      }
+    ],
+    type: 'profile',
   },
   twitter: {
-    title: 'About Affan Syed | Marketing Strategist & AI Builder',
-    description: 'Learn about Affan Syed, a Growth Marketing Analyst specializing in AI-driven marketing systems.',
+    title: 'About Affan Syed | Growth Marketing Analyst & AI Engineer',
+    description: 'Affan Syed: Growth Marketing Analyst, 7× American Advertising Award Winner, Founder of FewCuts Inc. AI marketing expert from Texas.',
+    creator: '@Affansyed321',
+  },
+  alternates: {
+    canonical: 'https://affansyed.com/about',
   },
 };
 

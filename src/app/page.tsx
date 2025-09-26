@@ -1,3 +1,17 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Affan Syed | Growth Marketing Analyst & AI Engineer',
+  description: 'Affan Syed - Growth Marketing Analyst specializing in AI-driven marketing systems. 7× American Advertising Award Winner, Founder of FewCuts Inc. Expert in performance marketing, data analytics, and creator economy strategies.',
+  keywords: ['Affan Syed', 'Growth Marketing Analyst', 'AI Engineer', 'Marketing Expert', 'FewCuts Founder', 'American Advertising Awards', 'AI Marketing', 'Performance Marketing'],
+  openGraph: {
+    title: 'Affan Syed | Growth Marketing Analyst & AI Engineer',
+    description: 'Growth Marketing Analyst specializing in AI-driven marketing systems. Award-winning marketer and startup founder.',
+    url: 'https://affansyed.com',
+    type: 'profile',
+  },
+};
+
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
 import { ArrowDownRight } from 'lucide-react';
