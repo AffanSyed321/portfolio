@@ -1,3 +1,21 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Affan Syed | Marketing Strategist & AI Builder',
+  description: 'Learn about Affan Syed, a Growth Marketing Analyst with expertise in AI-driven marketing systems. Computer Science Engineering graduate, MBA in Business Analytics, 7× American Advertising Award Winner.',
+  keywords: ['About Affan Syed', 'Marketing Strategist', 'AI Builder', 'Growth Marketing Analyst', 'Computer Science Engineering', 'Business Analytics MBA', 'American Advertising Awards'],
+  openGraph: {
+    title: 'About Affan Syed | Marketing Strategist & AI Builder',
+    description: 'Learn about Affan Syed, a Growth Marketing Analyst specializing in AI-driven marketing systems. Award-winning strategist and founder.',
+    url: 'https://affansyed.com/about',
+    images: ['/images/profile-about.jpg'],
+  },
+  twitter: {
+    title: 'About Affan Syed | Marketing Strategist & AI Builder',
+    description: 'Learn about Affan Syed, a Growth Marketing Analyst specializing in AI-driven marketing systems.',
+  },
+};
+
 'use client';
 
 import React, { useEffect, useRef } from 'react';

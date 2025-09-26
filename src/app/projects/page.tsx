@@ -1,3 +1,20 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Work Experience | Affan Syed Portfolio',
+  description: 'Explore Affan Syed\'s professional experience as Growth Marketing Analyst, Founder of FewCuts Inc., Data Analyst at Kerr Industries, and award-winning content creator. See detailed work history and achievements.',
+  keywords: ['Affan Syed Experience', 'Growth Marketing Analyst', 'FewCuts Inc Founder', 'Kerr Industries', 'Marketing Career', 'Work History', 'Professional Experience'],
+  openGraph: {
+    title: 'Work Experience | Affan Syed Portfolio',
+    description: 'Explore Affan Syed\'s professional experience in growth marketing, AI systems, and content creation.',
+    url: 'https://affansyed.com/projects',
+  },
+  twitter: {
+    title: 'Work Experience | Affan Syed Portfolio',
+    description: 'Explore Affan Syed\'s professional experience in growth marketing, AI systems, and content creation.',
+  },
+};
+
 'use client';
 
 import React, { useState } from 'react';

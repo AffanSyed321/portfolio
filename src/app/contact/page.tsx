@@ -1,3 +1,20 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Affan Syed | Get in Touch',
+  description: 'Contact Affan Syed for growth marketing consulting, AI-driven marketing solutions, or collaboration opportunities. Available for marketing strategy, performance marketing, and AI system development projects.',
+  keywords: ['Contact Affan Syed', 'Marketing Consulting', 'AI Marketing Consultant', 'Growth Marketing Services', 'Performance Marketing Expert', 'Get in Touch'],
+  openGraph: {
+    title: 'Contact Affan Syed | Get in Touch',
+    description: 'Contact Affan Syed for growth marketing consulting and AI-driven marketing solutions.',
+    url: 'https://affansyed.com/contact',
+  },
+  twitter: {
+    title: 'Contact Affan Syed | Get in Touch',
+    description: 'Contact Affan Syed for growth marketing consulting and AI-driven marketing solutions.',
+  },
+};
+
 'use client';
 
 import TextDisperse from '@/app/contact/textDisperse/textDisperse';
