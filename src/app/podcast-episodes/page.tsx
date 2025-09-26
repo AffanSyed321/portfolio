@@ -161,7 +161,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoId, title }) => {
 
 export default function PodcastEpisodes() {
   return (
-    <Layout>
+    <Layout title="didn't really name it">
       <div className="min-h-screen bg-gray-50 px-2 py-4 sm:px-4 sm:py-8 md:px-8 lg:px-16">
         <div className="grid grid-cols-1 gap-4 sm:gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {podcastEpisodes.map((episode) => (
