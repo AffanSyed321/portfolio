@@ -41,9 +41,9 @@ const experiences = [
     tag: 'Creator Economy',
     color: 'pink',
     details: [
-      'Developed product positioning and content marketing strategy for YouTube and TikTok channels across international markets, conducting audience research, behavioral analysis, and competitive intelligence to optimize messaging and drive user activation.',
-      'Drove global customer acquisition and performance marketing strategy, analyzing audience segmentation and user behavior data to optimize campaign targeting and creative performance.',
-      'Led cross-functional collaboration with creative teams and content producers, translating customer insights, competitive intelligence, and performance metrics into actionable marketing strategies that drove measurable growth in user acquisition and engagement across B2C channels.'
+      'Developed product positioning and content strategy for YouTube and TikTok channels across international markets. Translated audience research and competitive intelligence into messaging frameworks that improved engagement and retention metrics.',
+      'Drove global customer acquisition using Excel, Tableau, SQL, and Python to analyze audience segmentation and optimize campaign targeting. Executed A/B testing frameworks to scale content production across multiple creators and channels.',
+      'Built performance dashboards tracking CPM, CPC, engagement, and retention. Presented strategic recommendations to leadership on campaign optimization and multi-market expansion.'
     ]
   },
   {

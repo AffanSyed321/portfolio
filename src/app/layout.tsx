@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     default: 'Affan Syed | Product Marketing Manager | B2B SaaS',
     template: '%s | Affan Syed'
   },
-  description: 'Affan Syed is a Product Marketing Manager from Wichita Falls, Texas, specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner (ADDYs 2024, Fort Worth), Founder of FewCuts Inc. Computer Science Engineering graduate (Osmania University), MBA Business Analytics (Midwestern State University). Currently Product Marketing Manager leading 0→1 product launches, strategic positioning, competitive intelligence, and sales enablement for AI products. Expert in go-to-market strategy, product launches, sales enablement, competitive analysis, B2B SaaS marketing, and cross-functional collaboration.',
+  description: 'Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. 7× American Advertising Award Winner, Founder of FewCuts Inc. Technical background (CS + MBA Analytics) enables collaboration on complex AI/ML products. Expert in product launches, sales enablement, competitive intelligence, and strategic positioning.',
   keywords: ['Affan Syed', 'Affan Syed Mahmood Hussain', 'Product Marketing Manager', 'B2B SaaS Marketing', 'Go-to-Market Strategy', 'GTM Strategy', 'Product Launch', 'Sales Enablement', 'Technical Product Marketing', 'Competitive Intelligence', 'Product Positioning', 'AI Products', 'B2B Marketing', 'SaaS Marketing', 'Product Marketing', 'FewCuts', 'FewCuts Inc', 'American Advertising Awards', 'Wichita Falls Texas', 'Osmania University', 'Midwestern State University', 'Fort Worth ADDYs', 'Product Marketing Texas', 'Enterprise Marketing', 'Startup Founder Texas'],
   authors: [{ name: 'Affan Syed', url: 'https://affansyed.com' }],
   creator: 'Affan Syed',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://affansyed.com',
     title: 'Affan Syed | Product Marketing Manager | B2B SaaS',
-    description: 'Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner, Founder of FewCuts Inc.',
+    description: 'Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, acquiring 30+ enterprise clients and $540K in pipeline.',
     siteName: 'Affan Syed Portfolio',
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Affan Syed | Product Marketing Manager | B2B SaaS',
-    description: 'Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner.',
+    description: 'Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches acquiring 30+ enterprise clients and $540K in pipeline.',
     images: ['/images/profile2.jpg'],
     creator: '@Affansyed321',
   },
@@ -102,7 +102,7 @@ export default function RootLayout({
         "value": "Product Marketing Manager Affan Syed"
       },
       "jobTitle": ["Product Marketing Manager", "Technical Product Marketer", "Marketing Strategist", "Founder"],
-      "description": "Affan Syed is a Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner and Founder of FewCuts Inc. Expert in product launches, sales enablement, competitive intelligence, and strategic positioning.",
+      "description": "Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. 7× American Advertising Award Winner and Founder of FewCuts Inc.",
       "disambiguatingDescription": "Product Marketing Manager from Wichita Falls, Texas, known for B2B SaaS product launches and American Advertising Awards.",
       "knowsAbout": [
         "Product Marketing",

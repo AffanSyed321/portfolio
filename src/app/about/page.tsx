@@ -101,13 +101,13 @@ export default function About() {
               <div className="flex flex-col gap-10">
                 <div className="text-primary-950/70 dark:text-primary-200/70 space-y-8">
                   <p className="text-2xl font-semibold">
-                    A Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing, with a background in Computer Science Engineering (Osmania University) and an MBA in Business Analytics (Midwestern State University).
+                    Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy, with a background in Computer Science Engineering (Osmania University) and an MBA in Business Analytics (Midwestern State University).
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I lead 0→1 product launches through strategic positioning, competitive intelligence, sales enablement, and cross-functional collaboration with Product, Engineering, and Sales teams.
+                    I&apos;ve led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. My technical background enables collaboration on complex AI/ML products and translation for sales audiences.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    At my current company, I serve as a Product Marketing Manager, driving go-to-market strategy for two B2B SaaS AI products from concept to launch. I&apos;ve acquired 30+ enterprise clients and identified $540K in pipeline opportunities through strategic positioning, competitive battle cards, and sales enablement materials. I partner closely with AI Engineering and Product teams to influence roadmap through market intelligence and execute launches for technical and enterprise audiences.
+                    At my current company, I drive product marketing and go-to-market strategy for B2B SaaS AI products, partnering with Product, Engineering, and Sales teams. I&apos;ve achieved proven success optimizing campaigns 79% above industry benchmarks using Placer AI, Spatial AI, and performance analytics.
                   </p>
                   <p className="text-lg sm:text-xl">
                     I am also the Founder of{' '}
