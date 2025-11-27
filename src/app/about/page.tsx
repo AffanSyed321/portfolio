@@ -101,13 +101,13 @@ export default function About() {
               <div className="flex flex-col gap-10">
                 <div className="text-primary-950/70 dark:text-primary-200/70 space-y-8">
                   <p className="text-2xl font-semibold">
-                    A marketing strategist, growth marketing analyst, and AI builder with a background in Computer Science Engineering (Osmania University) and an MBA in Business Analytics (Midwestern State University).
+                    A Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing, with a background in Computer Science Engineering (Osmania University) and an MBA in Business Analytics (Midwestern State University).
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I specialize in designing AI-driven marketing systems that merge creativity, analytics, and technology to drive measurable growth.
+                    I lead 0→1 product launches through strategic positioning, competitive intelligence, sales enablement, and cross-functional collaboration with Product, Engineering, and Sales teams.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    At my current company, I serve as a Growth Marketing Analyst, leading AI-powered marketing pipelines across automotive, retail, and entertainment. I&apos;ve developed in-house systems including a graphic design workflow with Gemini, GPT-5, and o3 thinking, streamlining creative production, and location intelligence frameworks (Placer.ai, Experian Mosaic) that map customer segments and power offensive/defensive ad strategies.
+                    At my current company, I serve as a Product Marketing Manager, driving go-to-market strategy for two B2B SaaS AI products from concept to launch. I&apos;ve acquired 30+ enterprise clients and identified $540K in pipeline opportunities through strategic positioning, competitive battle cards, and sales enablement materials. I partner closely with AI Engineering and Product teams to influence roadmap through market intelligence and execute launches for technical and enterprise audiences.
                   </p>
                   <p className="text-lg sm:text-xl">
                     I am also the Founder of{' '}

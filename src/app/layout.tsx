@@ -12,11 +12,11 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Affan Syed | Growth Marketing Analyst & AI Engineer',
+    default: 'Affan Syed | Product Marketing Manager | B2B SaaS',
     template: '%s | Affan Syed'
   },
-  description: 'Affan Syed is a Growth Marketing Analyst from Wichita Falls, Texas, specializing in AI-driven marketing systems. 7× American Advertising Award Winner (ADDYs 2024, Fort Worth), Founder & CMO of FewCuts Inc. AI video editor startup. Computer Science Engineering graduate (Osmania University), MBA Business Analytics (Midwestern State University). Currently Growth Marketing Analyst leading AI-powered marketing pipelines, formerly Data Analyst at Kerr Industries. Expert in performance marketing, data analytics, marketing automation, AI/LLM applications, creator economy, YouTube content creation, and podcast hosting. Known for AI marketing systems, location intelligence frameworks, and customer segmentation strategies.',
-  keywords: ['Affan Syed', 'Affan Syed Mahmood Hussain', 'Growth Marketing Analyst', 'AI Marketing', 'Performance Marketing', 'Data Analytics', 'Marketing Strategy', 'AI Engineer', 'Creator Economy', 'FewCuts', 'FewCuts Inc', 'American Advertising Awards', 'Marketing Automation', 'Wichita Falls Texas', 'Osmania University', 'Midwestern State University', 'Kerr Industries', 'YouTube Creator', 'Podcast Host', 'AI Video Editor', 'Marketing Analyst Texas', 'Fort Worth ADDYs', 'AI LLM Marketing', 'Digital Marketing Expert', 'Startup Founder Texas'],
+  description: 'Affan Syed is a Product Marketing Manager from Wichita Falls, Texas, specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner (ADDYs 2024, Fort Worth), Founder of FewCuts Inc. Computer Science Engineering graduate (Osmania University), MBA Business Analytics (Midwestern State University). Currently Product Marketing Manager leading 0→1 product launches, strategic positioning, competitive intelligence, and sales enablement for AI products. Expert in go-to-market strategy, product launches, sales enablement, competitive analysis, B2B SaaS marketing, and cross-functional collaboration.',
+  keywords: ['Affan Syed', 'Affan Syed Mahmood Hussain', 'Product Marketing Manager', 'B2B SaaS Marketing', 'Go-to-Market Strategy', 'GTM Strategy', 'Product Launch', 'Sales Enablement', 'Technical Product Marketing', 'Competitive Intelligence', 'Product Positioning', 'AI Products', 'B2B Marketing', 'SaaS Marketing', 'Product Marketing', 'FewCuts', 'FewCuts Inc', 'American Advertising Awards', 'Wichita Falls Texas', 'Osmania University', 'Midwestern State University', 'Fort Worth ADDYs', 'Product Marketing Texas', 'Enterprise Marketing', 'Startup Founder Texas'],
   authors: [{ name: 'Affan Syed', url: 'https://affansyed.com' }],
   creator: 'Affan Syed',
   publisher: 'Affan Syed',
@@ -28,22 +28,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://affansyed.com',
-    title: 'Affan Syed | Growth Marketing Analyst & AI Engineer',
-    description: 'Growth Marketing Analyst specializing in AI-driven marketing systems. 7× American Advertising Award Winner, Founder of FewCuts Inc.',
+    title: 'Affan Syed | Product Marketing Manager | B2B SaaS',
+    description: 'Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner, Founder of FewCuts Inc.',
     siteName: 'Affan Syed Portfolio',
     images: [
       {
         url: '/images/profile2.jpg',
         width: 1200,
         height: 630,
-        alt: 'Affan Syed - Growth Marketing Analyst & AI Engineer',
+        alt: 'Affan Syed - Product Marketing Manager',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Affan Syed | Growth Marketing Analyst & AI Engineer',
-    description: 'Growth Marketing Analyst specializing in AI-driven marketing systems. 7× American Advertising Award Winner.',
+    title: 'Affan Syed | Product Marketing Manager | B2B SaaS',
+    description: 'Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner.',
     images: ['/images/profile2.jpg'],
     creator: '@Affansyed321',
   },
@@ -87,7 +87,7 @@ export default function RootLayout({
         "url": "https://affansyed.com/images/profile2.jpg",
         "width": 400,
         "height": 400,
-        "caption": "Affan Syed - Growth Marketing Analyst and AI Engineer"
+        "caption": "Affan Syed - Product Marketing Manager"
       },
       "sameAs": [
         "https://x.com/Affansyed321",
@@ -99,31 +99,34 @@ export default function RootLayout({
       "identifier": {
         "@type": "PropertyValue",
         "propertyID": "affansyed.com",
-        "value": "Growth Marketing Analyst Affan Syed"
+        "value": "Product Marketing Manager Affan Syed"
       },
-      "jobTitle": ["Growth Marketing Analyst", "AI Engineer", "Marketing Strategist", "Founder"],
-      "description": "Affan Syed is a Growth Marketing Analyst specializing in AI-driven marketing systems. 7× American Advertising Award Winner and Founder of FewCuts Inc. Expert in performance marketing, data analytics, and AI marketing automation.",
-      "disambiguatingDescription": "Growth Marketing Analyst from Wichita Falls, Texas, known for AI marketing systems and American Advertising Awards.",
+      "jobTitle": ["Product Marketing Manager", "Technical Product Marketer", "Marketing Strategist", "Founder"],
+      "description": "Affan Syed is a Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing. 7× American Advertising Award Winner and Founder of FewCuts Inc. Expert in product launches, sales enablement, competitive intelligence, and strategic positioning.",
+      "disambiguatingDescription": "Product Marketing Manager from Wichita Falls, Texas, known for B2B SaaS product launches and American Advertising Awards.",
       "knowsAbout": [
-        "Growth Marketing",
-        "AI Marketing",
-        "Performance Marketing",
+        "Product Marketing",
+        "Go-to-Market Strategy",
+        "B2B SaaS Marketing",
+        "Product Launch Strategy",
+        "Sales Enablement",
+        "Competitive Intelligence",
+        "Product Positioning",
+        "Strategic Messaging",
+        "Technical Product Marketing",
+        "Cross-Functional Collaboration",
+        "Market Research",
+        "Customer Segmentation",
+        "Battle Cards",
+        "Product-Market Fit",
+        "AI Products",
+        "Marketing Technology",
         "Data Analytics",
-        "Marketing Strategy",
         "Creator Economy",
-        "Marketing Automation",
-        "AI/LLM",
-        "Content Strategy",
-        "Digital Marketing",
-        "Marketing Analytics",
-        "Customer Acquisition",
-        "Conversion Optimization",
-        "Social Media Marketing",
-        "Email Marketing",
-        "SEO",
         "Tableau",
         "Excel",
-        "GPT",
+        "SQL",
+        "Python",
         "Video Editing",
         "Podcast Hosting"
       ],
@@ -169,13 +172,13 @@ export default function RootLayout({
       "worksFor": [
         {
           "@type": "Organization",
-          "name": "Current Company",
-          "description": "Growth Marketing Analyst role focusing on AI-powered marketing pipelines"
+          "name": "Hoegger Communications",
+          "description": "Product Marketing Manager leading go-to-market strategy for B2B SaaS AI products"
         },
         {
           "@type": "Organization",
           "name": "Kerr Industries",
-          "description": "Data Analyst — Performance Marketing Specialist (March 2021–December 2023)"
+          "description": "Associate Product Marketing Manager & Marketing Analyst (March 2021–December 2023)"
         }
       ],
       "award": [
@@ -196,7 +199,7 @@ export default function RootLayout({
       "@id": "https://affansyed.com/#website",
       "url": "https://affansyed.com",
       "name": "Affan Syed Portfolio",
-      "description": "Official website of Affan Syed - Growth Marketing Analyst, AI Engineer, and Founder",
+      "description": "Official website of Affan Syed - Product Marketing Manager, B2B SaaS Specialist, and Founder",
       "publisher": {
         "@id": "https://affansyed.com/#person"
       },

@@ -6,13 +6,12 @@ import Link from 'next/link';
 
 export default function Description() {
   const phrase1 =
-    'A growth marketing analyst with a passion for AI, data, and\n' +
-    'technology.\n\n ';
+    'A Product Marketing Manager specializing in B2B SaaS go-to-market strategy and technical product marketing.\n\n ';
 
   const phrase2 =
-    'Particularly interested in the intersection of strategy, creativity, and ' +
-    'machine learning. I believe that these disciplines can be combined to ' +
-    'create powerful stories and scalable growth.';
+    'Driving 0→1 product launches through strategic positioning, sales enablement, and ' +
+    'cross-functional collaboration. I bridge Product, Engineering, and Sales to bring ' +
+    'AI products to market and unlock enterprise revenue.';
   const description = useRef(null);
   const isInView = useInView(description);
 
@@ -61,8 +60,7 @@ export default function Description() {
           animate={isInView ? 'open' : 'closed'}
           className="m-0 pb-3 font-light sm:text-lg"
         >
-          Currently a Growth Marketing Analyst working at the intersection of AI, data,
-          and strategy.
+          Currently a Product Marketing Manager leading go-to-market strategy for B2B SaaS AI products, from positioning to launch to sales enablement.
         </motion.p>
         <motion.p
           variants={opacity}

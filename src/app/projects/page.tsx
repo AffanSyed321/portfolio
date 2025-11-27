@@ -9,20 +9,20 @@ import { ModalContext } from './modalContext';
 
 const experiences = [
   {
-    title: 'Growth Marketing Analyst',
-    company: 'Current Company',
+    title: 'Product Marketing Manager',
+    company: 'Hoegger Communications',
     location: 'Wichita Falls, TX',
     duration: 'May 2024 - Present',
-    tag: 'Marketing & AI',
+    tag: 'B2B SaaS & AI',
     color: '#000000',
     details: [
-      'Used different types of data to improve park marketing strategies: location intelligence, persona data, brand awareness, and local competitive insights, outperforming parks that didn\'t use these techniques by 93.8%.',
-      'Scaled outbound marketing campaigns across Meta, TikTok, and email for 68+ locations, boosting international customer engagement by 36.2% through strategic experimentation and customer-backwards approach.',
-      'Develop comprehensive pricing models for multi-market strategies using Excel macros and Tableau dashboards, analyzing seasonality and DMA trends with Placer.AI data to optimize customer acquisition and drive conversion across diverse segments.',
-      'Developed AI-powered SEO platform with human-in-the-loop workflows leveraging high-quality open-source articles as context and GPT deep research for topic analysis.',
-      'Applied LoRA to FLUX (image) and Wan 2.2 (video) to improve visual consistency across creative outputs.',
-      'Work cross-functionally with operations, finance, and creative teams to implement scalable programs including email marketing, SMS campaigns, and push notifications across B2B and e-commerce markets.',
-      'Managed internship program from January 2025 - May 2025, recruiting and hiring marketing interns.'
+      'Lead product marketing and go-to-market strategy for two B2B SaaS AI products (SEO Alchemy, Vision Studio) from 0→1, acquiring 30+ enterprise clients and surfacing $540K in pipeline opportunities through strategic positioning, competitive battle cards, and sales enablement materials.',
+      'Own product launch and sales enablement, collaborating with AI Engineering, Creative, and Sales to develop GTM materials including pitch decks, demo scripts, competitive positioning, product one-pagers, and ROI calculators—reducing creative production time by 10x.',
+      'Partner with Product and Engineering teams to define requirements, influence roadmap through market intelligence, and execute launches for technical and enterprise audiences.',
+      'Architect AI marketing automation for 38+ e-commerce brands, integrating content generation tools and analytics platforms. Translate AI capabilities into value propositions and positioning frameworks for B2B enterprise and consumer audiences.',
+      'Manage campaigns and customer acquisition for 68+ FEC and entertainment brands, leveraging behavioral analytics and experimentation to optimize messaging and creative strategy, achieving 79% above 2025 FEC industry YoY benchmarks.',
+      'Present strategic recommendations to C-suite using dashboards tracking ROI, pipeline contribution, and marketing efficiency.',
+      'Work cross-functionally with Product, Engineering, Sales, and Creative teams to drive measurable business outcomes through strategic positioning and go-to-market execution.'
     ]
   },
   {
@@ -34,15 +34,16 @@ const experiences = [
     color: '#ee5622'
   },
   {
-    title: 'Data Analyst — Performance Marketing Specialist',
+    title: 'Associate Product Marketing Manager & Marketing Analyst',
     company: 'Kerr Industries',
     location: 'Remote',
     duration: 'March 2021–December 2023',
     tag: 'Creator Economy',
     color: 'pink',
     details: [
-      'Analyzed international audience targeting using Excel functions and Tableau visualizations to inform global content strategy, improving viewer retention across geographic segments.',
-      'Led cross-functional creative team using customer data analysis and performance metrics to guide scalable content planning and execution.'
+      'Developed product positioning and content marketing strategy for YouTube and TikTok channels across international markets, conducting audience research, behavioral analysis, and competitive intelligence to optimize messaging and drive user activation.',
+      'Drove global customer acquisition and performance marketing strategy, analyzing audience segmentation and user behavior data to optimize campaign targeting and creative performance.',
+      'Led cross-functional collaboration with creative teams and content producers, translating customer insights, competitive intelligence, and performance metrics into actionable marketing strategies that drove measurable growth in user acquisition and engagement across B2C channels.'
     ]
   },
   {
