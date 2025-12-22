@@ -73,7 +73,7 @@ export default function ContactInfo() {
         <div className="mt-28 flex flex-col justify-between p-5 2xs:mt-60 sm:mx-[100px] sm:mt-56 sm:flex-row sm:items-end">
           <div className="mb-5 sm:mb-0">
             <p className="min-w-screen text-base sm:max-w-xs">
-              Product Marketing Manager | B2B SaaS Specialist | Founder of FewCuts Inc. | 7× American Advertising Award Winner | Creator & Podcast Host
+              Product Marketing Manager | B2B SaaS Specialist | 7× American Advertising Award Winner | Creator & Podcast Host
             </p>
           </div>
           <div className="flex items-end gap-2">

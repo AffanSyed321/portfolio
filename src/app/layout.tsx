@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     default: 'Affan Syed | Product Marketing Manager | B2B SaaS',
     template: '%s | Affan Syed'
   },
-  description: 'Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. 7× American Advertising Award Winner, Founder of FewCuts Inc. Technical background (CS + MBA Analytics) enables collaboration on complex AI/ML products. Expert in product launches, sales enablement, competitive intelligence, and strategic positioning.',
-  keywords: ['Affan Syed', 'Affan Syed Mahmood Hussain', 'Product Marketing Manager', 'B2B SaaS Marketing', 'Go-to-Market Strategy', 'GTM Strategy', 'Product Launch', 'Sales Enablement', 'Technical Product Marketing', 'Competitive Intelligence', 'Product Positioning', 'AI Products', 'B2B Marketing', 'SaaS Marketing', 'Product Marketing', 'FewCuts', 'FewCuts Inc', 'American Advertising Awards', 'Wichita Falls Texas', 'Osmania University', 'Midwestern State University', 'Fort Worth ADDYs', 'Product Marketing Texas', 'Enterprise Marketing', 'Startup Founder Texas'],
+  description: 'Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, driving enterprise client acquisition and pipeline growth. 7× American Advertising Award Winner. Technical background (CS + MBA Analytics) enables collaboration on complex AI/ML products. Expert in product launches, sales enablement, competitive intelligence, and strategic positioning.',
+  keywords: ['Affan Syed', 'Affan Syed Mahmood Hussain', 'Product Marketing Manager', 'B2B SaaS Marketing', 'Go-to-Market Strategy', 'GTM Strategy', 'Product Launch', 'Sales Enablement', 'Technical Product Marketing', 'Competitive Intelligence', 'Product Positioning', 'AI Products', 'B2B Marketing', 'SaaS Marketing', 'Product Marketing', 'American Advertising Awards', 'Wichita Falls Texas', 'Osmania University', 'Midwestern State University', 'Fort Worth ADDYs', 'Product Marketing Texas', 'Enterprise Marketing'],
   authors: [{ name: 'Affan Syed', url: 'https://affansyed.com' }],
   creator: 'Affan Syed',
   publisher: 'Affan Syed',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://affansyed.com',
     title: 'Affan Syed | Product Marketing Manager | B2B SaaS',
-    description: 'Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, acquiring 30+ enterprise clients and $540K in pipeline.',
+    description: 'Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, driving enterprise client acquisition and pipeline growth.',
     siteName: 'Affan Syed Portfolio',
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Affan Syed | Product Marketing Manager | B2B SaaS',
-    description: 'Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches acquiring 30+ enterprise clients and $540K in pipeline.',
+    description: 'Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, driving enterprise client acquisition and pipeline growth.',
     images: ['/images/profile2.jpg'],
     creator: '@Affansyed321',
   },
@@ -93,16 +93,15 @@ export default function RootLayout({
         "https://x.com/Affansyed321",
         "https://www.youtube.com/@AffanSyedx",
         "https://www.linkedin.com/in/affan-syed-mahmood-hussain-0577a6169/",
-        "https://github.com/affansyed",
-        "https://fewcuts.com"
+        "https://github.com/affansyed"
       ],
       "identifier": {
         "@type": "PropertyValue",
         "propertyID": "affansyed.com",
         "value": "Product Marketing Manager Affan Syed"
       },
-      "jobTitle": ["Product Marketing Manager", "Technical Product Marketer", "Marketing Strategist", "Founder"],
-      "description": "Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. 7× American Advertising Award Winner and Founder of FewCuts Inc.",
+      "jobTitle": ["Product Marketing Manager", "Technical Product Marketer", "Marketing Strategist"],
+      "description": "Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, driving enterprise client acquisition and pipeline growth. 7× American Advertising Award Winner.",
       "disambiguatingDescription": "Product Marketing Manager from Wichita Falls, Texas, known for B2B SaaS product launches and American Advertising Awards.",
       "knowsAbout": [
         "Product Marketing",
@@ -143,14 +142,6 @@ export default function RootLayout({
           "dateCreated": "2024"
         }
       ],
-      "founder": {
-        "@type": "Organization",
-        "name": "FewCuts Inc.",
-        "url": "https://fewcuts.com",
-        "description": "Context-based AI video editor startup for creators and brands",
-        "foundingDate": "2021",
-        "foundingLocation": "Remote"
-      },
       "alumniOf": [
         {
           "@type": "CollegeOrUniversity",
@@ -199,7 +190,7 @@ export default function RootLayout({
       "@id": "https://affansyed.com/#website",
       "url": "https://affansyed.com",
       "name": "Affan Syed Portfolio",
-      "description": "Official website of Affan Syed - Product Marketing Manager, B2B SaaS Specialist, and Founder",
+      "description": "Official website of Affan Syed - Product Marketing Manager and B2B SaaS Specialist",
       "publisher": {
         "@id": "https://affansyed.com/#person"
       },
@@ -211,18 +202,6 @@ export default function RootLayout({
         },
         "query-input": "required name=search_term_string"
       }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "FewCuts Inc.",
-      "url": "https://fewcuts.com",
-      "founder": {
-        "@id": "https://affansyed.com/#person"
-      },
-      "description": "Context-based AI video editor startup founded by Affan Syed",
-      "foundingDate": "2021",
-      "industry": "AI Video Technology"
     }
   ];
 

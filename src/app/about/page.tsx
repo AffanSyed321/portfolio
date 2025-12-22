@@ -101,45 +101,28 @@ export default function About() {
               <div className="flex flex-col gap-10">
                 <div className="text-primary-950/70 dark:text-primary-200/70 space-y-8">
                   <p className="text-2xl font-semibold">
-                    Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy, with a background in Computer Science Engineering (Osmania University) and an MBA in Business Analytics (Midwestern State University).
+                    Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. Led 0→1 launches for two AI products, driving enterprise client acquisition and pipeline growth.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I&apos;ve led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. My technical background enables collaboration on complex AI/ML products and translation for sales audiences.
+                    Technical background (Computer Science Engineering from Osmania University + MBA in Business Analytics from Midwestern State University) enables collaboration on complex AI/ML products and translation for sales audiences.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    At my current company, I drive product marketing and go-to-market strategy for B2B SaaS AI products, partnering with Product, Engineering, and Sales teams. I&apos;ve achieved proven success optimizing campaigns 79% above industry benchmarks using Placer AI, Spatial AI, and performance analytics.
+                    At Hoegger Communications, I lead product marketing and go-to-market strategy for two B2B SaaS AI products (SEO Alchemy, Vision Studio), partnering with Product, Engineering, and Sales teams to define requirements, influence roadmap through market intelligence, and execute launches for technical and enterprise audiences.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I am also the Founder of{' '}
-                    <Link
-                      href="https://Fewcuts.com"
-                      className="font-semibold underline"
-                    >
-                      FewCuts Inc.
-                    </Link>
-                    , a context-based AI video editor startup built to help creators and brands scale campaigns by transforming long-form podcast content into intelligent short-form storytelling.
+                    I architect AI marketing automation for 38+ e-commerce brands, integrating content generation tools and analytics platforms. I manage campaigns and customer acquisition for 68+ FEC and entertainment brands, leveraging behavioral analytics to optimize messaging and creative strategy, achieving 79% above 2025 FEC industry YoY benchmarks.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    My work has been recognized with 7 American Advertising Awards in Fort Worth.
+                    My work has been recognized with 7 American Advertising Awards in Fort Worth for excellence in performance marketing, data-driven campaign optimization, customer segmentation strategy, and creative execution across digital advertising channels.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    Beyond marketing strategy, I&apos;m deeply obsessed with the creator economy. I built a{' '}
-                    <Link
-                      href="https://www.youtube.com/watch?v=Y8B3hldrjI8&list=PLjK8ekDghYRlMYGTUaokojpClBeu8R7Al&pp=gAQB"
-                      className="font-semibold underline"
-                    >
-                      YouTube channel
-                    </Link>
-                    {' '}focused on creativity and creator economy and I host a podcast for the digital age — featuring global founders, creators, and thinkers like Ali Abdaal, Mehdi from ElectroBOOM, Jonathan Morrison, and more.
+                    I also serve as an Adjunct Professor teaching Promotions Management at Midwestern State University, where I bring real-world marketing strategy and analytics into the classroom.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    The podcast&apos;s mission has always been to help students and young professionals unlock the &quot;third door&quot; in the digital age by showing how others carved unconventional paths.
+                    Previously at Kerr Industries, I developed product positioning and content strategy for YouTube and TikTok channels across international markets, driving global customer acquisition using Excel, Tableau, SQL, and Python to analyze audience segmentation and optimize campaign targeting.
                   </p>
                   <p className="text-lg sm:text-xl">
-                    I also worked with creators at Kerr Industries, helping scale content strategies for names like Milad Mirg and Koi Academy, refining their audience engagement and growth funnels.
-                  </p>
-                  <p className="text-lg sm:text-xl">
-                    Whether in marketing strategy, AI systems, or digital storytelling, my goal is the same: to combine data, design, and technology into narratives that grow businesses and empower people.
+                    Customer-obsessed approach to product marketing with focus on solving real customer problems through positioning and messaging. Proven ability to influence cross-functional stakeholders and drive results in ambiguous 0→1 launch environments.
                   </p>
                 </div>
               </div>

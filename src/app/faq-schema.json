@@ -7,7 +7,7 @@
       "name": "Who is Affan Syed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. He led 0→1 launches for two AI products, acquiring 30+ enterprise clients and surfacing $540K in pipeline. He is a 7× American Advertising Award Winner and the Founder of FewCuts Inc."
+        "text": "Affan Syed is a Product Marketing Manager with 4+ years in B2B SaaS go-to-market strategy. He led 0→1 launches for two AI products, driving enterprise client acquisition and pipeline growth. He is a 7× American Advertising Award Winner."
       }
     },
     {
@@ -16,14 +16,6 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Affan Syed works as a Product Marketing Manager, leading go-to-market strategy for B2B SaaS AI products. He partners with Product, Engineering, and Sales teams to drive product launches through strategic positioning, competitive battle cards, and sales enablement materials."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is FewCuts Inc?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "FewCuts Inc. is a context-based AI video editor startup founded by Affan Syed in 2021. The company helps creators and brands scale campaigns by transforming long-form podcast content into intelligent short-form storytelling using AI technology."
       }
     },
     {
@@ -47,7 +39,7 @@
       "name": "Where is Affan Syed located?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Affan Syed is based in Wichita Falls, Texas, United States. He works remotely on various marketing projects and his startup FewCuts Inc."
+        "text": "Affan Syed is based in Wichita Falls, Texas, United States. He works remotely on various marketing projects."
       }
     },
     {

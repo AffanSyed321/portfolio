@@ -16,22 +16,19 @@ const experiences = [
     tag: 'B2B SaaS & AI',
     color: '#000000',
     details: [
-      'Lead product marketing and go-to-market strategy for two B2B SaaS AI products (SEO Alchemy, Vision Studio) from 0→1, acquiring 30+ enterprise clients and surfacing $540K in pipeline opportunities through strategic positioning, competitive battle cards, and sales enablement materials.',
-      'Own product launch and sales enablement, collaborating with AI Engineering, Creative, and Sales to develop GTM materials including pitch decks, demo scripts, competitive positioning, product one-pagers, and ROI calculators—reducing creative production time by 10x.',
-      'Partner with Product and Engineering teams to define requirements, influence roadmap through market intelligence, and execute launches for technical and enterprise audiences.',
-      'Architect AI marketing automation for 38+ e-commerce brands, integrating content generation tools and analytics platforms. Translate AI capabilities into value propositions and positioning frameworks for B2B enterprise and consumer audiences.',
-      'Manage campaigns and customer acquisition for 68+ FEC and entertainment brands, leveraging behavioral analytics and experimentation to optimize messaging and creative strategy, achieving 79% above 2025 FEC industry YoY benchmarks.',
-      'Present strategic recommendations to C-suite using dashboards tracking ROI, pipeline contribution, and marketing efficiency.',
-      'Work cross-functionally with Product, Engineering, Sales, and Creative teams to drive measurable business outcomes through strategic positioning and go-to-market execution.'
+      'Lead product marketing and go-to-market strategy for two B2B SaaS AI products (SEO Alchemy, Vision Studio) from 0→1, driving enterprise client acquisition and pipeline growth through strategic positioning, competitive battle cards, and sales enablement materials. Partner with Product, Engineering, and Sales to define requirements, influence roadmap through market intelligence, and execute launches for technical and enterprise audiences.',
+      'Own product launch and sales enablement, collaborating with AI Engineering, Creative, and Sales to develop GTM materials and launch strategy. Created sales enablement toolkit including pitch decks, demo scripts, competitive positioning, product one-pagers, and ROI calculators—reducing creative production time by 10x for copywriters and designers (measured via Teamwork) while cutting costs 85%.',
+      'Architect AI marketing automation for 38+ e-commerce brands, integrating content generation tools (Flux, Sora, Veo, Runway) and analytics platforms to scale production. Translate AI capabilities into value propositions and positioning frameworks for B2B enterprise and consumer audiences. Present strategic recommendations to C-suite using dashboards tracking ROI, pipeline contribution, and marketing efficiency.',
+      'Manage campaigns and customer acquisition for 68+ FEC and entertainment brands, leveraging behavioral analytics and experimentation to optimize messaging and creative strategy. Integrate AI location intelligence (Placer AI) and spatial analytics for audience targeting, achieving 79% above 2025 FEC industry YoY benchmarks through A/B testing, conversion optimization, and data-driven campaign management across paid social (Meta, Google, TikTok).'
     ]
   },
   {
-    title: 'Founder and CMO',
-    company: 'FewCuts Inc.',
-    location: 'Remote',
-    duration: '2021 - Present',
-    tag: 'Startup',
-    color: '#ee5622'
+    title: 'Adjunct Professor – Promotions Management',
+    company: 'Midwestern State University',
+    location: 'Wichita Falls, TX',
+    duration: 'Aug 2025 - Present',
+    tag: 'Education',
+    color: '#4A148C'
   },
   {
     title: 'Associate Product Marketing Manager & Marketing Analyst',
@@ -47,16 +44,15 @@ const experiences = [
     ]
   },
   {
-    title: 'YouTube Creator & Podcast Host',
-    company: 'Independent',
-    tag: 'Content Creation',
-    color: '#EFE8D3'
-  },
-  {
     title: '7× American Advertising Award Winner',
-    company: 'ADDYs 2024, Fort Worth',
+    company: 'Fort Worth ADDYs',
+    location: 'Fort Worth, TX',
     tag: 'Awards',
-    color: '#303030'
+    color: '#303030',
+    details: [
+      'Recognized for excellence in performance marketing, data-driven campaign optimization, customer segmentation strategy, and creative execution across digital advertising channels, demonstrating consistent ability to deliver measurable marketing ROI.',
+      'D&M Leasing Multi-Market Campaign Lead – Designed and launched scalable paid acquisition campaigns across geographic markets, winning 2 Addy Awards through rigorous A/B testing, experimentation framework, and advanced analytics demonstrating measurable ROI and conversion improvements.'
+    ]
   }
 ];
 
