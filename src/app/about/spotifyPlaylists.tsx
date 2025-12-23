@@ -16,18 +16,6 @@ interface SpotifyPlaylistsProps {
   playlists: SpotifyPlaylist[];
 }
 
-const decodeHtmlEntities = (text: string) => {
-  if (!text) return text;
-
-  return text
-    .replace(/&quot;/g, '"')
-    .replace(/&#x2F;/g, '/')
-    .replace(/&#39;/g, "'")
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&amp;/g, '&');
-};
-
 const SpotifyPlaylists: React.FC<SpotifyPlaylistsProps> = ({ playlists }) => {
   return (
     <div className="rounded-2xl bg-purple-900 p-4 text-white shadow-lg">
