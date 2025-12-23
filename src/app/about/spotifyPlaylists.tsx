@@ -16,6 +16,12 @@ interface SpotifyPlaylistsProps {
   playlists: SpotifyPlaylist[];
 }
 
+const decodeHtmlEntities = (text: string) => {
+  const textArea = document.createElement('textarea');
+  textArea.innerHTML = text;
+  return textArea.value;
+};
+
 const SpotifyPlaylists: React.FC<SpotifyPlaylistsProps> = ({ playlists }) => {
   return (
     <div className="rounded-3xl bg-purple-900 p-6 pt-12 text-white shadow-lg">
@@ -44,7 +50,7 @@ const SpotifyPlaylists: React.FC<SpotifyPlaylistsProps> = ({ playlists }) => {
               {playlist.name}
             </h4>
             <p className="mb-2 line-clamp-2 text-sm text-gray-400">
-              {playlist.description}
+              {decodeHtmlEntities(playlist.description)}
             </p>
             <p className="text-sm text-gray-400">
               {playlist.trackCount} tracks
