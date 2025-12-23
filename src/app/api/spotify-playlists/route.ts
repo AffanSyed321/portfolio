@@ -14,10 +14,7 @@ export async function GET() {
     spotifyApi.setAccessToken(data.body['access_token']);
 
     const playlistId = [
-      '5gxD39PRtgwy8GCGMjB7oE',
-      // '2GfLRoD5RzuU3qGBJwI5TT',
-      '7uC1v1Juca1fTeng1P9y8Q',
-      '1UKWjkEXm2tYZ5R6BqVJR4'
+      '4OJAmJMo07dI4N47aYN6j7'
     ];
 
     const playlistsData = await Promise.all(
