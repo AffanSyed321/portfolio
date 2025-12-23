@@ -143,6 +143,15 @@ export default function About() {
                 />
               ) : null}
             </Link>
+            <div className="pt-10">
+              {spotifyLoading ? (
+                <div></div>
+              ) : spotifyError ? (
+                <div></div>
+              ) : playlists && playlists.length > 0 ? (
+                <SpotifyPlaylists playlists={playlists} />
+              ) : null}
+            </div>
           </div>
         </div>
       </Layout>
