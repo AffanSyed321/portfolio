@@ -129,7 +129,7 @@ export default function About() {
             </div>
             <Link
               className="flex flex-col gap-10 pt-10"
-              href="https://github.com/affansyed"
+              href="https://github.com/affansyed321"
             >
               {githubLoading ? (
                 <div></div>

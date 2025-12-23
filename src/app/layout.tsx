@@ -93,7 +93,7 @@ export default function RootLayout({
         "https://x.com/Affansyed321",
         "https://www.youtube.com/@AffanSyedx",
         "https://www.linkedin.com/in/affan-syed-mahmood-hussain-0577a6169/",
-        "https://github.com/affansyed"
+        "https://github.com/affansyed321"
       ],
       "identifier": {
         "@type": "PropertyValue",
