@@ -10,7 +10,7 @@ const spotifyApi = new SpotifyWebApi({
 });
 
 export async function GET() {
-  const scopes = ['user-top-read'];
+  const scopes = ['user-top-read', 'playlist-read-private', 'playlist-read-collaborative'];
   const state = 'some-state-of-my-choice';
   const authorizeURL = spotifyApi.createAuthorizeURL(scopes, state);
 
