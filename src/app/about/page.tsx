@@ -70,32 +70,13 @@ export default function About() {
                     alt="Profile picture"
                   />
                 </div>
-                <div className="flex flex-col gap-4">
-                  <h3 className="text-lg font-semibold">My Favorite Tracks</h3>
-                  <div className="flex flex-col gap-2">
-                    <Link
-                      href="https://www.youtube.com/watch?v=IlWlQ-NxNK0&pp=ygUaZm9yZCB2cyBmZXJyYXJpIHNvdW5kdHJhY2s%3D"
-                      className="text-blue-500 hover:underline"
-                      target="_blank"
-                    >
-                      🎵 Ford vs Ferrari Soundtrack
-                    </Link>
-                    <Link
-                      href="https://www.youtube.com/watch?v=qDAPUfogVcY"
-                      className="text-blue-500 hover:underline"
-                      target="_blank"
-                    >
-                      🎵 Track 2
-                    </Link>
-                    <Link
-                      href="https://www.youtube.com/watch?v=LlgWqcHXD8w&pp=ygUVc3VjY2Vzc2lvbiB0aGVtZSBzb25n"
-                      className="text-blue-500 hover:underline"
-                      target="_blank"
-                    >
-                      🎵 Succession Theme Song
-                    </Link>
-                  </div>
-                </div>
+                {spotifyLoading ? (
+                  <div></div>
+                ) : spotifyError ? (
+                  <div></div>
+                ) : playlists && playlists.length > 0 ? (
+                  <SpotifyPlaylists playlists={playlists} />
+                ) : null}
               </div>
 
               <div className="flex flex-col gap-10">
@@ -143,15 +124,6 @@ export default function About() {
                 />
               ) : null}
             </Link>
-            <div className="pt-10">
-              {spotifyLoading ? (
-                <div></div>
-              ) : spotifyError ? (
-                <div></div>
-              ) : playlists && playlists.length > 0 ? (
-                <SpotifyPlaylists playlists={playlists} />
-              ) : null}
-            </div>
           </div>
         </div>
       </Layout>

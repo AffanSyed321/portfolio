@@ -30,20 +30,20 @@ const decodeHtmlEntities = (text: string) => {
 
 const SpotifyPlaylists: React.FC<SpotifyPlaylistsProps> = ({ playlists }) => {
   return (
-    <div className="rounded-3xl bg-purple-900 p-6 pt-12 text-white shadow-lg">
-      <h3 className="text-spotify-green mb-4 text-2xl font-bold">
-        My Top Working Playlists
+    <div className="rounded-2xl bg-purple-900 p-4 text-white shadow-lg">
+      <h3 className="mb-3 text-lg font-bold">
+        My Playlist
       </h3>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-col gap-3">
         {playlists.map((playlist) => (
           <a
             key={playlist.id}
             href={playlist.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-spotify-darker flex flex-col rounded-md p-4 transition-all duration-300 hover:bg-opacity-80"
+            className="flex gap-3 rounded-md transition-all duration-300 hover:bg-purple-800 p-2"
           >
-            <div className="relative mb-4 w-full pb-[100%]">
+            <div className="relative h-20 w-20 flex-shrink-0">
               <Image
                 src={playlist.imageUrl || '/placeholder-playlist.png'}
                 alt={`${playlist.name} cover`}
@@ -52,18 +52,14 @@ const SpotifyPlaylists: React.FC<SpotifyPlaylistsProps> = ({ playlists }) => {
                 className="rounded-md"
               />
             </div>
-            <h4 className="mb-1 truncate text-lg font-semibold">
-              {playlist.name}
-            </h4>
-            <p className="mb-2 line-clamp-2 text-sm text-gray-400">
-              {decodeHtmlEntities(playlist.description)}
-            </p>
-            <p className="text-sm text-gray-400">
-              {playlist.trackCount} tracks
-            </p>
-            <p className="mt-2 text-sm text-gray-400">
-              First track: {playlist.firstTrack} by {playlist.firstTrackArtist}
-            </p>
+            <div className="flex flex-col justify-center min-w-0">
+              <h4 className="truncate text-sm font-semibold">
+                {playlist.name}
+              </h4>
+              <p className="text-xs text-gray-400">
+                {playlist.trackCount} tracks
+              </p>
+            </div>
           </a>
         ))}
       </div>
